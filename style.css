@@ -590,6 +590,7 @@ footer .copyright {
 @media (max-width: 1048px) {
     #menu-btn {
         display: block;
+        width: 100%;
     }
 
     header {
@@ -638,6 +639,11 @@ footer .copyright {
 }
 
 @media (max-width: 768px) {
+
+    #menu-btn {
+        display: block;
+        width: 100%;
+    }
     
     header {
         padding: 1rem 2rem;
@@ -653,6 +659,7 @@ footer .copyright {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0 auto; 
         transition: .3s linear;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
