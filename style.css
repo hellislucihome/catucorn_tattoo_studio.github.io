@@ -654,6 +654,7 @@ footer .copyright {
         top: 99%;
         left: 0%;
         right: 0%;
+        width: 100%;
         border-top: .1rem solid var(--lpink-clr);
         border-bottom: .1rem solid var(--lpink-clr);
         display: flex;
