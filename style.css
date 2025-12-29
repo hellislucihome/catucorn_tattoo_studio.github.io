@@ -620,8 +620,8 @@ footer .copyright {
     }
 
     .review .row .content .wrapper {
-        grid-template-columns: repeat(2, 1fr); /* Убедитесь, что 2 колонки */
-        gap: 20px; /* Соответствует отступу 10px с каждой стороны */
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px; 
     }
 
     .review .row .content .wrapper .card {
@@ -639,6 +639,34 @@ footer .copyright {
 
 @media (max-width: 768px) {
     
+    header {
+        padding: 1rem 2rem;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 99%;
+        left: 0%;
+        right: 0%;
+        border-top: .1rem solid var(--lpink-clr);
+        border-bottom: .1rem solid var(--lpink-clr);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: .3s linear;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar li{
+        margin: 2rem;
+    }
+
+    header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        background: #222;
+    }
+
+
     .review .row .content .wrapper {
         grid-template-columns: 1fr; 
         gap: 30px;
