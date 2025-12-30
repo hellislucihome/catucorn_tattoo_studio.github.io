@@ -693,4 +693,55 @@ footer .copyright {
     }
 }
 
+@media (max-width: 368px) {
+
+    #menu-btn {
+        display: block;
+        width: 100%;
+    }
+    
+    header {
+        padding: 1rem 2rem;
+        width: 100%;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 99%;
+        left: 0%;
+        right: 0%;
+        width: 100%;
+        border-top: .1rem solid var(--lpink-clr);
+        border-bottom: .1rem solid var(--lpink-clr);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto; 
+        transition: .3s linear;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar li{
+        margin: 2rem;
+    }
+
+    header .navbar.active {
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        background: #222;
+    }
+
+
+    .review .row .content .wrapper {
+        grid-template-columns: 1fr; 
+        gap: 30px;
+    }
+    
+    .review .row .content .wrapper .card {
+        width: 100%; 
+        flex: 0 1 100%;
+        max-width: 500px; 
+        margin: 0 auto; 
+    }
+}
 
