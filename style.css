@@ -617,6 +617,7 @@ footer .copyright {
     }
 
     header .navbar.active {
+        width: 100%;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
         background: #222;
     }
@@ -672,6 +673,7 @@ footer .copyright {
     }
 
     header .navbar.active {
+        width: 100%;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
         background: #222;
     }
@@ -689,3 +691,4 @@ footer .copyright {
         margin: 0 auto; 
     }
 }
+
