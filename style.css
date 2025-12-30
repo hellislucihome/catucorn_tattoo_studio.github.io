@@ -119,6 +119,7 @@ header .svg {
 
 header .navbar {
     display: flex;
+    width: 100%;
 }
 
 header .navbar li {
@@ -691,4 +692,5 @@ footer .copyright {
         margin: 0 auto; 
     }
 }
+
 
