@@ -693,7 +693,7 @@ footer .copyright {
     }
 }
 
-@media (max-width: 368px) {
+@media (max-width: 248px) {
 
     #menu-btn {
         display: block;
@@ -744,4 +744,5 @@ footer .copyright {
         margin: 0 auto; 
     }
 }
+
 
