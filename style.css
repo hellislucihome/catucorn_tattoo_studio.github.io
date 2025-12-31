@@ -93,7 +93,7 @@ header {
     box-shadow: var(--box-shadow);
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     padding: 1rem 3%;
     z-index: 99999999;
 }
@@ -602,3 +602,4 @@ footer .copyright {
         width: calc(50% - 10px);
     }
 }
+
