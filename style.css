@@ -573,6 +573,10 @@ footer .copyright {
 
     header {
         padding: 1rem 2rem;
+        width: 100%; 
+        max-width: 100vw; 
+        overflow-x: hidden; 
+        box-sizing: border-box;
     }
 
     header .navbar {
@@ -587,6 +591,8 @@ footer .copyright {
         align-items: center;
         transition: .3s linear;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        width: 100%;
+        box-sizing: border-box;
     }
 
     header .navbar li{
