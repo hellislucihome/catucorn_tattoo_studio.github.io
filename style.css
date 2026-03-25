@@ -43,6 +43,9 @@ body {
     --sb-thumb-color: #ff158b;
     --sb-size: 1rem;
     background: #222;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
 }
 
 body::-webkit-scrollbar {
